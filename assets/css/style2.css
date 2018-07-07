@@ -1,0 +1,21 @@
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color:lightgrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h1 {
+    font-family: "Open Sans Condensed";
+    font-size: 60px;
+    line-height: 10px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}

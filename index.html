@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Bounty Collector!</title>
+  </head>
+  <body>
+   <div class="container col-12">
+    <div class="jumbotron jumbotron-fluid">
+     <div class="container">
+      <h1 class="display-4 ">Bounty Collector!</h1>
+       <p class="lead">These scoundrels have yet to pay back there debts. Its time to collect...</p>
+     </div>
+    </div>
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="col-4">
+       <div id="instructions">
+        <p>You will be given a bounty to collect at the start of the game.</p>
+        <p>There are four scoundrels below each offering different amounts of Imperial credits to pay off their debts and bounties.</p>
+        <p>Clicking each of the scoundrels will add specific amount to your total amount of Imperial credits.</p>
+        <p>You successfully collect what you are owed by matching your total number of Imperial credits to the number of Imperial credits generated at the start of the game.</p>
+        <p>You fail to collect what your are owed if your total of Imperial credits goes above the number of Imperial credits generated at the start of the game</p>
+        <p>The amount of imperial credits each scoundrel will offer is hidden until you click on them.</p>
+        <p>Each time the game starts the amounts each scoundrel will offer will change randomly and a new total owed will change randomly as well.</p>
+       </div>
+      </div>
+     <div class="col-8">
+      <div id="bottom">
+       <div class="row">
+        <div class="card border-dark mb-3 col">
+         <div class="card-header">Imperial Credits Owed</div>
+          <div class="card-body text-dark">
+           <p id="totalCredits" class="card-text"></p>
+          </div>
+        </div>
+        <div class="card border-white mb-3 col">
+         <div class="card-header">Imperial Credits Taken</div>
+          <div class="card-body text-dark">
+          <p id="creditsTaken" class="card-text"></p>
+          </div>
+        </div>
+        <div class="card text-white bg-primary mb-3 col">
+         <div class="card-header">Success</div>
+          <div class="card-body">
+           <p id="wins" class="card-text">Wins:</p>
+           <p id="losses" class="card-text">Losses:</p>
+          </div>
+        </div>
+       </div>
+       <div class="row">
+        <div id="hanClick" class="card col-2">
+         <img class="card-img-top" src="./assets/images/han solo.jpg" alt="Card image cap">
+         <div class="card-body">
+          <p id="han" class="card-text invisible"></p>
+         </div>
+        </div>
+        <div id="landoClick" class="card col-2">
+         <img class="card-img-top" src="./assets/images/Lando.jpg" alt="Card image cap">
+         <div class="card-body">
+          <p id="lando" class="card-text invisible"></p>
+         </div>
+        </div>
+        <div id="chewyClick" class="card col-2">
+         <img class="card-img-top" src="./assets/images/solo-chewbacca-main_80768fa8.jpeg" alt="Card image cap">
+         <div class="card-body">
+          <p id="chewy" class="card-text invisible"></p>
+         </div>
+        </div>
+        <div id="gritoClick" class="card col-2">
+         <img class="card-img-top" src="./assets/images/Screen Shot 2018-06-29 at 5.30.51 PM.png" alt="Card image cap">
+         <div class="card-body">
+          <p id="grito" class="card-text invisible"></p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>

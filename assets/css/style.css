@@ -1,0 +1,20 @@
+
+body {
+    background-image: url(../images/Boba_Fett_2_2bd57c36-2d60-4b7f-a8cb-1c0c785a6d71_1200x1200\ copy.jpg);
+    background-size: 100vw;
+}
+
+#instructions {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#scoundrels {
+}
+
+#bottom {
+    float: none;
+    display: table-cell;
+    vertical-align: baseline;
+}
